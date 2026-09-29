@@ -19,13 +19,14 @@ python scripts/release_preflight.py
 
 This checks required files, parses JSON and Python sources, rejects common private-path and secret patterns, rejects bundled executables and caches, and verifies that the K17 result records retain the `UNCERTIFIED_SOLVER_AUDIT` status.
 
-Before an actual public release, after choosing a license and filling the citation metadata, run:
+Before an actual public release, run:
 
 ```text
 python scripts/release_preflight.py --strict-release
 ```
 
-The strict mode intentionally fails while the license and citation placeholders remain unresolved.
+Strict mode requires the completed root `LICENSE` and `CITATION.cff`, in
+addition to all ordinary release checks.
 
 ## 2. Run all core mathematical checks
 
@@ -76,4 +77,3 @@ The safe K17 run recorded about 68.4 hours of solve time on its original machine
 - Passing finite enumeration checks validates the stated finite classifications, together with their completeness arguments.
 - Matching the K17 solver result validates reproducibility of a solver computation.
 - None of these steps, separately or in combination, should be relabeled beyond the scopes in [CLAIMS.md](CLAIMS.md).
-

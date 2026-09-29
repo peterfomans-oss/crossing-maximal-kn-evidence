@@ -66,5 +66,7 @@ Do not add `-O`: several finite checkers rely on assertions. These commands do n
 
 ## Licensing and citation
 
-No public license has been selected in this release candidate. A repository owner must choose a license and add a root `LICENSE` file before publication. See [`LICENSES/README.md`](LICENSES/README.md), [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), and [`CITATION.cff.template`](CITATION.cff.template). The template deliberately contains no invented author name or email.
-
+Original repository content is released under the [MIT License](LICENSE) by
+`peterfomans-oss`. Citation metadata is in [`CITATION.cff`](CITATION.cff).
+See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for referenced tools and
+historical provenance. No third-party source code or solver binary is vendored.

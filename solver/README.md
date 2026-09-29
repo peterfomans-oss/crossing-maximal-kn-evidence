@@ -56,3 +56,12 @@ These hashes match the source hashes recorded in the original manifests.
 | `sparse_parity_basis.py` | `7d1c4f07e88eda309b4a84135aa081fbce89d465953064ffedc295059029b861` |
 | `cm5_unlabeled.json0` | `a8f8601be31bc948bfef94e72aa5a45ceee6b722f12ef33c50534eb80fb6619c` |
 
+The two-line K5 catalogue can be checked against a fresh, independent rebuild
+from the exhaustive classification with:
+
+```text
+python -B audits/k5-completeness/rebuild_solver_catalogue.py
+```
+
+Use `--write` only when intentionally regenerating the file. The default mode
+is read-only and requires byte-for-byte equality.

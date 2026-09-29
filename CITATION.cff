@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using this metadata."
+title: "Crossing-Maximal Complete-Graph Evidence"
+type: software
+authors:
+  - name: "peterfomans-oss"
+repository-code: "https://github.com/peterfomans-oss/crossing-maximal-kn-evidence"
+url: "https://github.com/peterfomans-oss/crossing-maximal-kn-evidence"
+version: "0.1.0"
+date-released: "2026-09-29"
+license: MIT
+abstract: >-
+  Mathematical arguments, finite enumerations, checked drawing certificates,
+  and reproducible but uncertified SAT/XOR run records for crossing-maximal
+  simple drawings of complete graphs.
+keywords:
+  - topological graph theory
+  - crossing-maximal drawings
+  - SAT
+  - XOR
+  - computer-assisted mathematics

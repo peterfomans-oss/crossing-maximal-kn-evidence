@@ -19,6 +19,7 @@ RELEASE = HERE.parent
 CHECKS = [
     ("K5 exhaustive enumeration", "proofs/k5-completeness/enumerate_embeddings.py"),
     ("independent K5 audit", "audits/k5-completeness/audit_k5_completeness.py"),
+    ("independent K5 solver catalogue rebuild", "audits/k5-completeness/rebuild_solver_catalogue.py"),
     ("K8 complete witness audit", "certificates/k8/check_counterexample.py"),
     ("K8 planarization certificate", "certificates/k8/planar/check_certificate.py"),
     ("K8 independent embedding reconstruction", "certificates/k8/check_embedding_independent.py"),
@@ -53,7 +54,7 @@ def main() -> None:
     started = time.perf_counter()
     with tempfile.TemporaryDirectory(prefix="crossing-evidence-") as temp_name:
         temp = Path(temp_name)
-        for name in ("proofs", "certificates", "audits"):
+        for name in ("proofs", "certificates", "audits", "solver"):
             shutil.copytree(RELEASE / name, temp / name)
         environment = dict(os.environ)
         environment.pop("PYTHONOPTIMIZE", None)

@@ -66,5 +66,6 @@ python scripts/run_core_checks.py
 
 ## 许可证与引用
 
-本待发布版本尚未选择公开许可证。发布前应由仓库所有者选择许可证并添加根目录 `LICENSE`。参见 [`LICENSES/README.md`](LICENSES/README.md)、[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 和 [`CITATION.cff.template`](CITATION.cff.template)。模板中没有虚构作者姓名或邮箱。
-
+本仓库的原创内容由 `peterfomans-oss` 以 [MIT 许可证](LICENSE)
+发布，引用信息见 [`CITATION.cff`](CITATION.cff)。所引用工具及历史来源见
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。仓库不包含第三方求解器二进制或源码。

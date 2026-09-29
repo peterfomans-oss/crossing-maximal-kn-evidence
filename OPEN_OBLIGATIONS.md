@@ -40,8 +40,8 @@ Solver UNKNOWN results and uncertified bounded UNSAT probes remain exploratory a
 
 ## E. Publication administration
 
-- Choose the repository license and add a root `LICENSE` file.
-- Confirm the treatment or removal of third-party-derived catalogue data noted in `THIRD_PARTY_NOTICES.md`.
-- Fill author and repository metadata in `AUTHORS.md` and `CITATION.cff.template`, then rename the completed template to `CITATION.cff`.
-- Run `python scripts/release_preflight.py --strict-release` before publishing.
-
+The repository license, public project identity, and `CITATION.cff` metadata
+were completed on 2026-09-29. The K5 solver catalogue now has an independent
+byte-for-byte rebuild check. Run
+`python scripts/release_preflight.py --strict-release` after every release
+metadata change and before making a release tag.

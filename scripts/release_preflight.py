@@ -25,7 +25,7 @@ REQUIRED_FILES = (
     "AUTHORS.md",
     "THIRD_PARTY_NOTICES.md",
     "CONTRIBUTING.md",
-    "CITATION.cff.template",
+    "CITATION.cff",
     "LICENSES/README.md",
     "proofs/README.md",
     "certificates/README.md",

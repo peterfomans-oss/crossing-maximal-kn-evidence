@@ -1,6 +1,7 @@
 # Contributing
 
-Contributions that improve verification, documentation, portability, or mathematical clarity are welcome after the repository owner selects a public license and contribution policy.
+Contributions that improve verification, documentation, portability, or
+mathematical clarity are welcome under the policy below.
 
 ## Claim discipline
 
@@ -28,5 +29,7 @@ Do not run formatting tools over preserved JSON result records unless the transf
 
 ## Licensing note
 
-The current release candidate deliberately has no selected public license. Until the owner adds one, prospective contributors should discuss licensing before submitting material. A contribution must not introduce third-party content with unknown or incompatible terms.
-
+Original repository content is licensed under MIT. By submitting a contribution,
+contributors agree that their contribution may be distributed under that license.
+A contribution must not introduce third-party content with unknown or
+incompatible terms.

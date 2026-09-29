@@ -33,16 +33,28 @@ The safe K17 formula retains the audited deletion-witness and ordering constrain
 
 ## K5 data
 
-The K5 completeness result in `proofs/k5-completeness/` is produced by a standard-library exhaustive enumerator that does not depend on the archived catalogue. It covers all normalized rotation systems and relevant along-edge crossing orders, then compares the resulting labeled crossing tables with the two-type closure.
+The K5 completeness result in `proofs/k5-completeness/` is produced by a
+standard-library exhaustive enumerator that does not depend on an archived
+catalogue. It covers all normalized rotation systems and relevant along-edge
+crossing orders, then compares the resulting labeled crossing tables with the
+two-type closure.
 
-The solver directory also contains `cm5_unlabeled.json0`, regenerated from the research code associated with Bergold and Scheucher's `rotsys-sat` framework. Recorded provenance:
+The solver directory contains the two-line `cm5_unlabeled.json0` input used by
+the recorded formulas. Its SHA-256 is
+`a8f8601be31bc948bfef94e72aa5a45ceee6b722f12ef33c50534eb80fb6619c`.
+The committed two-record file matches, byte for byte, the output derived
+solely from this repository's standard-library exhaustive K5 classification.
+`audits/k5-completeness/rebuild_solver_catalogue.py` performs this comparison
+without reading any third-party program or catalogue. This establishes
+independent reproducibility of the public bytes and removes any mathematical
+or build dependency on an external K5 catalogue.
 
-- source repository: `https://github.com/manfredscheucher/rotsys-sat`
-- acquisition date: 2026-09-01
-- downloaded archive SHA-256: `36a375bbede8c25aee763ed147297e21f47574a6a0efc3432cadcb4078486fc8`
-- regenerated `cm5_unlabeled.json0` SHA-256: `a8f8601be31bc948bfef94e72aa5a45ceee6b722f12ef33c50534eb80fb6619c`
-
-The acquired upstream archive did not contain an explicit license file. See `THIRD_PARTY_NOTICES.md` before public release. The independent K5 proof is included so that the mathematical K5 completeness claim does not rest solely on that catalogue's provenance.
+For historical transparency, an identical two-record input had earlier been
+regenerated while evaluating research code associated with Bergold and
+Scheucher's `rotsys-sat` framework (archive acquired 2026-09-01, SHA-256
+`36a375bbede8c25aee763ed147297e21f47574a6a0efc3432cadcb4078486fc8`).
+That upstream source is not copied into this repository and is not needed to
+reconstruct the public data.
 
 ## K8 and K9 objects
 
@@ -56,4 +68,3 @@ The K8/K9 objects contain uncrossed edges. This fact is part of their provenance
 - A changed formula or certificate receives a new fingerprint and is not silently substituted for a recorded run.
 - Result labels are stored with the records and checked by `scripts/release_preflight.py`.
 - The private transfer ZIP and machine environment remain outside this public tree.
-
