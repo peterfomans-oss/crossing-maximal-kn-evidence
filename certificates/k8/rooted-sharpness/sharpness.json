@@ -1,0 +1,2950 @@
+{
+  "status": "PASS",
+  "source": "../counterexample-k8.json",
+  "source_sha256": "dcdc3c4c80c8827be388be0d00c56b0b3c5672c83ecc1f00ecfc1404cd9ac1e5",
+  "checker_sha256": "9e3956b1bb7325aae4b102f93cda7d1c97c2580d2003fc8fd0d0d08fdd7623a6",
+  "scope": "Rooted seven-point bound sharpness; no global good-witness existence claim.",
+  "independent_method": "Direct witness definition and exhaustive permutation orders; no imported project code, SAT, or catalogue.",
+  "K8_K4_checks": 70,
+  "K8_K5_checks": 56,
+  "rooted_seven_vertex_example": {
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7
+    ],
+    "root_edge": [
+      0,
+      4
+    ],
+    "crossing_partners": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        7
+      ]
+    ],
+    "crossed": true,
+    "nonempty_centers": [
+      3
+    ],
+    "witnesses": [
+      {
+        "center": 3,
+        "order": [
+          5,
+          7,
+          1,
+          2
+        ],
+        "star": "0110",
+        "prefix": false,
+        "suffix": false,
+        "good": false
+      }
+    ],
+    "good_centers": [],
+    "root_blocked": true
+  },
+  "H_crossing_word_in_lexicographic_quad_order": [
+    0,
+    0,
+    2,
+    0,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2
+  ],
+  "H_six_vertex_deletions": [
+    {
+      "deleted_vertex": 1,
+      "vertices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "root_edge": [
+        0,
+        4
+      ],
+      "crossing_partners": [
+        [
+          3,
+          7
+        ]
+      ],
+      "crossed": true,
+      "nonempty_centers": [
+        3,
+        7
+      ],
+      "witnesses": [
+        {
+          "center": 3,
+          "order": [
+            5,
+            7,
+            2
+          ],
+          "star": "010",
+          "prefix": false,
+          "suffix": false,
+          "good": false
+        },
+        {
+          "center": 7,
+          "order": [
+            3,
+            5,
+            2
+          ],
+          "star": "100",
+          "prefix": true,
+          "suffix": false,
+          "good": true
+        }
+      ],
+      "good_centers": [
+        7
+      ],
+      "root_blocked": false
+    },
+    {
+      "deleted_vertex": 2,
+      "vertices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "root_edge": [
+        0,
+        4
+      ],
+      "crossing_partners": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "crossed": true,
+      "nonempty_centers": [
+        3
+      ],
+      "witnesses": [
+        {
+          "center": 3,
+          "order": [
+            5,
+            7,
+            1
+          ],
+          "star": "011",
+          "prefix": false,
+          "suffix": true,
+          "good": true
+        }
+      ],
+      "good_centers": [
+        3
+      ],
+      "root_blocked": false
+    },
+    {
+      "deleted_vertex": 3,
+      "vertices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "root_edge": [
+        0,
+        4
+      ],
+      "crossing_partners": [],
+      "crossed": false,
+      "nonempty_centers": [],
+      "witnesses": [],
+      "good_centers": [],
+      "root_blocked": false
+    },
+    {
+      "deleted_vertex": 5,
+      "vertices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "root_edge": [
+        0,
+        4
+      ],
+      "crossing_partners": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "crossed": true,
+      "nonempty_centers": [
+        3
+      ],
+      "witnesses": [
+        {
+          "center": 3,
+          "order": [
+            7,
+            1,
+            2
+          ],
+          "star": "110",
+          "prefix": true,
+          "suffix": false,
+          "good": true
+        }
+      ],
+      "good_centers": [
+        3
+      ],
+      "root_blocked": false
+    },
+    {
+      "deleted_vertex": 7,
+      "vertices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "root_edge": [
+        0,
+        4
+      ],
+      "crossing_partners": [
+        [
+          1,
+          3
+        ]
+      ],
+      "crossed": true,
+      "nonempty_centers": [
+        1,
+        3
+      ],
+      "witnesses": [
+        {
+          "center": 1,
+          "order": [
+            3,
+            5,
+            2
+          ],
+          "star": "100",
+          "prefix": true,
+          "suffix": false,
+          "good": true
+        },
+        {
+          "center": 3,
+          "order": [
+            5,
+            1,
+            2
+          ],
+          "star": "010",
+          "prefix": false,
+          "suffix": false,
+          "good": false
+        }
+      ],
+      "good_centers": [
+        1
+      ],
+      "root_blocked": false
+    }
+  ],
+  "H_all_rooted_subsets_at_most_six": {
+    "total_subsets_with_2_through_6_vertices": 31,
+    "crossed_subsets": 11,
+    "crossed_subsets_with_good_center": 11,
+    "size_counts": {
+      "2": {
+        "total": 1,
+        "crossed": 0
+      },
+      "3": {
+        "total": 5,
+        "crossed": 0
+      },
+      "4": {
+        "total": 10,
+        "crossed": 2
+      },
+      "5": {
+        "total": 10,
+        "crossed": 5
+      },
+      "6": {
+        "total": 5,
+        "crossed": 4
+      }
+    },
+    "records": [
+      {
+        "vertices": [
+          0,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              1
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              1,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              5
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              5,
+              1
+            ],
+            "star": "01",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7,
+              1
+            ],
+            "star": "11",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              5,
+              7
+            ],
+            "star": "01",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              5
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              5,
+              2
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              5,
+              1,
+              2
+            ],
+            "star": "010",
+            "prefix": false,
+            "suffix": false,
+            "good": false
+          }
+        ],
+        "good_centers": [
+          1
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7,
+              1,
+              2
+            ],
+            "star": "110",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              5,
+              7,
+              1
+            ],
+            "star": "011",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              5,
+              7,
+              2
+            ],
+            "star": "010",
+            "prefix": false,
+            "suffix": false,
+            "good": false
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              5,
+              2
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          7
+        ],
+        "root_blocked": false
+      }
+    ]
+  },
+  "K8_all_rooted_subsets_at_most_six": {
+    "total_subsets_with_2_through_6_vertices": 57,
+    "crossed_subsets": 18,
+    "crossed_subsets_with_good_center": 18,
+    "size_counts": {
+      "2": {
+        "total": 1,
+        "crossed": 0
+      },
+      "3": {
+        "total": 6,
+        "crossed": 0
+      },
+      "4": {
+        "total": 15,
+        "crossed": 2
+      },
+      "5": {
+        "total": 20,
+        "crossed": 7
+      },
+      "6": {
+        "total": 15,
+        "crossed": 9
+      }
+    },
+    "records": [
+      {
+        "vertices": [
+          0,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              1
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3
+            ],
+            "star": "1",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              1,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              5
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              5,
+              1
+            ],
+            "star": "01",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              6
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              6,
+              1
+            ],
+            "star": "01",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7,
+              1
+            ],
+            "star": "11",
+            "prefix": true,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          5,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              2
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          5,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          5,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              5,
+              7
+            ],
+            "star": "01",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              5
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              6,
+              7
+            ],
+            "star": "01",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              6
+            ],
+            "star": "10",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          4,
+          5,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              5,
+              2
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              5,
+              1,
+              2
+            ],
+            "star": "010",
+            "prefix": false,
+            "suffix": false,
+            "good": false
+          }
+        ],
+        "good_centers": [
+          1
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              6,
+              2
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              6,
+              1,
+              2
+            ],
+            "star": "010",
+            "prefix": false,
+            "suffix": false,
+            "good": false
+          }
+        ],
+        "good_centers": [
+          1
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              7,
+              1,
+              2
+            ],
+            "star": "110",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          1,
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 1,
+            "order": [
+              3,
+              6,
+              5
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          },
+          {
+            "center": 3,
+            "order": [
+              6,
+              5,
+              1
+            ],
+            "star": "001",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          1,
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              5,
+              7,
+              1
+            ],
+            "star": "011",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          3,
+          4,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              6,
+              7,
+              1
+            ],
+            "star": "011",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              5,
+              7,
+              2
+            ],
+            "star": "010",
+            "prefix": false,
+            "suffix": false,
+            "good": false
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              5,
+              2
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              6,
+              7,
+              2
+            ],
+            "star": "010",
+            "prefix": false,
+            "suffix": false,
+            "good": false
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              6,
+              2
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          7
+        ],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [],
+        "crossed": false,
+        "nonempty_centers": [],
+        "witnesses": [],
+        "good_centers": [],
+        "root_blocked": false
+      },
+      {
+        "vertices": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "root_edge": [
+          0,
+          4
+        ],
+        "crossing_partners": [
+          [
+            3,
+            7
+          ]
+        ],
+        "crossed": true,
+        "nonempty_centers": [
+          3,
+          7
+        ],
+        "witnesses": [
+          {
+            "center": 3,
+            "order": [
+              6,
+              5,
+              7
+            ],
+            "star": "001",
+            "prefix": false,
+            "suffix": true,
+            "good": true
+          },
+          {
+            "center": 7,
+            "order": [
+              3,
+              6,
+              5
+            ],
+            "star": "100",
+            "prefix": true,
+            "suffix": false,
+            "good": true
+          }
+        ],
+        "good_centers": [
+          3,
+          7
+        ],
+        "root_blocked": false
+      }
+    ]
+  },
+  "realizability_basis": "Induced restriction of separately certified K8 planarization; not established by this checker alone."
+}

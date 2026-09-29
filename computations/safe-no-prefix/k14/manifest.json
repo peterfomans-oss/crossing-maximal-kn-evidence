@@ -1,0 +1,65 @@
+{
+  "config": {
+    "all_deletion_witnesses": false,
+    "cube_depth": 0,
+    "induction_profile": "safe-induction-no-partner-no-prefix-v1",
+    "induction_witness": true,
+    "k5_encoding": "nogoods",
+    "n": 14,
+    "native_xor": true,
+    "parity_encoding": "direct",
+    "threads": 1
+  },
+  "created_utc": "2026-09-05T04:39:08+00:00",
+  "environment": {
+    "hostname_at_creation": "[redacted]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]"
+  },
+  "files": {
+    "cm5_unlabeled.json0": "a8f8601be31bc948bfef94e72aa5a45ceee6b722f12ef33c50534eb80fb6619c",
+    "crossing_model_explore.py": "6c6e52987894f03a7e73cf092eb07643c4e7690ccaa671e01488ecba9bf5d397",
+    "crossing_parity_checkpoint.py": "c3be5b700a72453556ff6f01e0b98ec3250bb21b7cead3cc14be02369b4407cb",
+    "crossing_parity_checkpoint_safe_no_prefix.py": "9c854ae03b4b294e057ed4fd99530c1aa70ad6f640feda180e439c0067d8c34a",
+    "crossing_parity_sat.py": "d44372d0a7759de641d9e83c70462c0fe781b7b3adcddcf9a841ef6ab58cfb13",
+    "crossing_parity_sat_safe_no_prefix.py": "9290e72b5d9fd4422657af9bc5113502d20e498c4db71b03f2b23bcb54bbc29d",
+    "sparse_parity_basis.py": "7d1c4f07e88eda309b4a84135aa081fbce89d465953064ffedc295059029b861"
+  },
+  "formula": {
+    "basis_dimension": null,
+    "cnf_clauses": 134335,
+    "max_crossing_basis_width": null,
+    "n": 14,
+    "sha256": "32affac3edb48da546fc57a518fb8bca3d77b1f18adb69d10e584e7da9e4abad",
+    "variables": 3003,
+    "xor_clauses": 30030
+  },
+  "partition": {
+    "coverage_reason": "Each selected K4 has exactly one of its three crossing literals true; all 3^depth full one-hot combinations are disjoint and exhaustive.",
+    "depth": 0,
+    "groups": [],
+    "kind": "exhaustive-k4-ternary-cubes",
+    "mechanical_audit": {
+      "checked_cubes": 1,
+      "checked_groups": 0,
+      "enumeration_sha256": "58788c7d600b588f43054f56acb1f39cffba6f77b9638082da7c9bb45584cefd",
+      "exact_one_clauses_found": true,
+      "one_hot_literals_per_cube": 0
+    },
+    "protocol": "base3-lexicographic-full-one-hot-v1",
+    "sha256": "c8c468f27cf3cc176d0a1c234a62476150ca614b14e4d6c678975da0ae32cece",
+    "total_cubes": 1
+  },
+  "run_id": "fcc0b74b175b45efa600dcdad62ee0c1",
+  "schema_version": 2,
+  "solver": {
+    "binding_filename": "pycryptosat.cp313-win_amd64.pyd",
+    "binding_sha256": "87ea8922b5630b0c484f92460625b487ba2a3508296775ec71ad78cbc95a6185",
+    "binding_size_bytes": 2066944,
+    "name": "cryptominisat-native-xor",
+    "python_executable_filename": "python.exe",
+    "python_executable_sha256": "0e818a1f9a0b8fbd4e7cc458a07cb7de2ea02ea326e387699a33b92f151242cd",
+    "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "version": "5.14.7"
+  }
+}

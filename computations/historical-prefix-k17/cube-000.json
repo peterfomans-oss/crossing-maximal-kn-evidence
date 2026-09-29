@@ -1,0 +1,35 @@
+{
+  "assumption_semantics": [],
+  "assumptions": [],
+  "choices": [],
+  "cube_index": 0,
+  "diagnostic_conflict": {
+    "independently_verified": false,
+    "is_proof_certificate": false,
+    "note": "This solver diagnostic is the negation of an assumption core; it is not an independently checkable UNSAT proof.",
+    "solver_reported_assumption_core": [],
+    "solver_reported_blocking_clause": [],
+    "structurally_consistent_with_assumptions": true
+  },
+  "finished_utc": "2026-09-04T12:58:26+00:00",
+  "formula_sha256": "04a2f88f98ef3d5303574928e273073eab16dad51ebe88175a8760e38b093105",
+  "hostname": "[redacted]",
+  "partition_sha256": "25a89aa7c9b0f1068d78f8d2576470292c0b1d401a4c09d454e7ddeef178954b",
+  "pid": null,
+  "result": "UNSAT",
+  "run_id": "6b0882361bd042acafc01b96e303db09",
+  "schema_version": 2,
+  "session_id": "[redacted]",
+  "solve_seconds": 15089.85293750005,
+  "solver": {
+    "binding_filename": "pycryptosat.cp313-win_amd64.pyd",
+    "binding_sha256": "87ea8922b5630b0c484f92460625b487ba2a3508296775ec71ad78cbc95a6185",
+    "binding_size_bytes": 2066944,
+    "name": "cryptominisat-native-xor",
+    "python_executable_filename": "python.exe",
+    "python_executable_sha256": "0e818a1f9a0b8fbd4e7cc458a07cb7de2ea02ea326e387699a33b92f151242cd",
+    "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "version": "5.14.7"
+  },
+  "started_utc": "2026-09-04T08:46:55+00:00"
+}

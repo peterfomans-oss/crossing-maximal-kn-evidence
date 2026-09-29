@@ -1,0 +1,32 @@
+{
+  "completed_unsat_cubes": 1,
+  "cube_files_aggregate_sha256": "98a4335bc44b096151ddffe8e10772d2d4d2922b4a3bc4f3c1bfd6d4f4830595",
+  "evidence": {
+    "claim_scope": "HASHED_ENCODED_FORMULA_ONLY",
+    "encoder_fidelity_requires_separate_mathematical_audit": true,
+    "human_summary": "For this exact hashed encoded formula, pycryptosat reported every exhaustive cube UNSAT. This is a reproducible computation record, not an independently checkable proof certificate.",
+    "independently_checkable_unsat_proof": false,
+    "kind": "reproducible-solver-audit",
+    "verification_level": "UNCERTIFIED_SOLVER_AUDIT",
+    "warning": "All exhaustive cubes were reported UNSAT by CryptoMiniSat, but the native-XOR binding did not emit a proof certificate."
+  },
+  "finished_utc": "2026-09-09T07:08:18+00:00",
+  "formula_sha256": "9c9abf7012053fa6f064f2d43233e11ec3f274fcb1003b900d6f4910664c5490",
+  "partition_kind": "exhaustive-k4-ternary-cubes",
+  "partition_sha256": "2f893a1ce7e276dfca1b3e16d91967edb6ffb40cc4578779d1afdc0b03af5293",
+  "result": "UNSAT",
+  "run_id": "56bf1c2652d74b0da8ed80050de0bbe6",
+  "schema_version": 2,
+  "solver": {
+    "binding_filename": "pycryptosat.cp313-win_amd64.pyd",
+    "binding_sha256": "87ea8922b5630b0c484f92460625b487ba2a3508296775ec71ad78cbc95a6185",
+    "binding_size_bytes": 2066944,
+    "name": "cryptominisat-native-xor",
+    "python_executable_filename": "python.exe",
+    "python_executable_sha256": "0e818a1f9a0b8fbd4e7cc458a07cb7de2ea02ea326e387699a33b92f151242cd",
+    "python_version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "version": "5.14.7"
+  },
+  "total_cubes": 1,
+  "total_recorded_solve_seconds": 246174.1711571
+}
